@@ -9,9 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "dynamic": "^4.2.2",
+    "leaflet": "^1.9.4",
+    "lucide-react": "^0.475.0",
+    "next": "15.1.7",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.1.7"
+    "react-icons": "^5.4.0",
+    "react-leaflet": "^5.0.0"
   },
   "devDependencies": {
     "postcss": "^8",
