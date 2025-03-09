@@ -105,7 +105,7 @@ export default function Home() {
       <div className="w-full max-w-md bg-gray-100 shadow-md rounded-lg p-4 mb-4">
         <div className="flex gap-2">
           <div className="flex-1">
-            <label className="block text-sm font-medium text-gray-700">Name</label>
+            <label className="block text-sm font-medium text-black">Name</label>
             <input
               type="text"
               className="w-full p-2 border rounded-lg mb-2"
@@ -115,7 +115,7 @@ export default function Home() {
             />
           </div>
           <div className="flex-1">
-            <label className="block text-sm font-medium text-gray-700">Phone Number</label>
+            <label className="block text-sm font-medium text-black">Phone Number</label>
             <input
               type="tel"
               className="w-full p-2 border rounded-lg mb-2"
@@ -135,7 +135,7 @@ export default function Home() {
       </button>
 
       <div className="w-full max-w-md bg-white shadow-md rounded-lg p-4">
-        <h2 className="text-lg font-semibold text-gray-800 mb-2">🏥 Select Hospital</h2>
+        <h2 className="text-lg font-semibold text-black mb-2">🏥 Select Hospital</h2>
         <input
           type="text"
           placeholder="Search hospital..."
@@ -157,7 +157,7 @@ export default function Home() {
               </div>
             ))
           ) : (
-            <p className="text-gray-500 text-sm text-center">No hospitals found</p>
+            <p className="text-black text-sm text-center">No hospitals found</p>
           )}
         </div>
         <button
